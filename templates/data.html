@@ -1,0 +1,24 @@
+{% extends "template.html" %}
+
+{% block title %}Data{% endblock %}
+
+{% block main %}
+
+<table class="styled-table">
+    <thead>
+        <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Email</th>
+        <th>Password</th>
+        </tr>
+    </thead>    
+        <tr>
+            <td>{{ my_data['name'] }}</td>
+            <td>{{ my_data['dept'] }}</td>
+            <td>{{ my_data['email'] }}</td>
+            <td>{{ my_data['password'] }}</td>
+        </tr>
+</table>
+
+{% endblock %}
