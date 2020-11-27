@@ -3,7 +3,7 @@ For Stu
 
 Hi Stu!
 
-This sort of resolves your issue but it will onkly work for one item at a item beacuse the dictionaries are not stored anywhere.
+This sort of resolves your issue but it will only work for one item at a item beacuse the dictionaries are not stored anywhere.
 
 You could create a list of dictionaries and add each item to that list and render the list.
 
