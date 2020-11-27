@@ -12,13 +12,18 @@
         <th>Email</th>
         <th>Password</th>
         </tr>
-    </thead>    
+    </thead>
+        {% for dict_item in my_data %}  
         <tr>
-            <td>{{ my_data['name'] }}</td>
-            <td>{{ my_data['dept'] }}</td>
-            <td>{{ my_data['email'] }}</td>
-            <td>{{ my_data['password'] }}</td>
+                <td>{{ dict_item['name'] }}</td> 
+                <td>{{ dict_item['dept'] }}</td> 
+                <td>{{ dict_item['email'] }}</td> 
+                <td>{{ dict_item['password'] }}</td>   
         </tr>
+
+            
+        {% endfor %}
+        
 </table>
 
 {% endblock %}
